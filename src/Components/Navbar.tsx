@@ -16,7 +16,12 @@ export function Navbar() {
             animate={{ opacity: 1, x: 0 }}
             className="text-2xl bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent"
           >
+            <a 
+            href="#" 
+             className="bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent hover:opacity-80 transition-opacity"
+             >
             BNG
+            </a>
           </motion.div>
 
           {/* Desktop Navigation */}
