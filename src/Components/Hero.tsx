@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { motion } from "motion/react";
 import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "./ui/button";
@@ -45,10 +45,10 @@ export default function Hero() {
             transition={{ delay: 0.5 }}
             className="text-gray-600 text-lg leading-relaxed"
           >
-            Mid-level developer with 3+ years of experience
-            crafting beautiful, accessible, and performant web
-            applications. Currently focused on mastering scalable 
-            architecture and transitioning into senior-level leadership."
+            Mid-level developer with 3+ years of experience crafting beautiful,
+            accessible, and performant web applications. Currently focused on
+            mastering scalable architecture and transitioning into senior-level
+            leadership."
           </motion.p>
 
           <motion.div
@@ -57,17 +57,29 @@ export default function Hero() {
             transition={{ delay: 0.6 }}
             className="flex gap-4 flex-wrap"
           >
-            <Button className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-6 rounded-full">
-              View My Work
-              <ArrowRight className="ml-2 h-4 w-4" />
+            <Button
+              asChild
+              className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-6 rounded-full"
+            >
+              <a
+                href="https://github.com/brithecoder/Briannas-Portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View My Work
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </a>
             </Button>
             <Button
               asChild
               variant="outline"
               className="border-2 border-purple-300 text-purple-700 hover:bg-purple-50 px-6 py-6 rounded-full"
             >
-             <a href="/briannas-portfolio/public/BriannaGordonEngineering 2025 Resume.docx.pdf" download>
-              Download CV
+              <a
+                href="/briannas-portfolio/public/BriannaGordonEngineering 2025 Resume.docx.pdf"
+                download
+              >
+                Download CV
               </a>
             </Button>
           </motion.div>
@@ -80,7 +92,7 @@ export default function Hero() {
           >
             <a
               href="https://github.com/brithecoder"
-              target="_blank" 
+              target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-purple-600 transition-colors"
             >
@@ -88,15 +100,15 @@ export default function Hero() {
             </a>
             <a
               href="https://www.linkedin.com/in/brianna-gordon-swe"
-              target="_blank" 
+              target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-purple-600 transition-colors"
             >
               <Linkedin className="h-6 w-6" />
             </a>
             <a
-               href="mailto:brigordon574@gmail.com"
-               target="_blank" 
+              href="mailto:brigordon574@gmail.com"
+              target="_blank"
               className="text-gray-600 hover:text-purple-600 transition-colors"
             >
               <Mail className="h-6 w-6" />
@@ -112,7 +124,7 @@ export default function Hero() {
         >
           <div className="relative rounded-3xl overflow-hidden shadow-2xl">
             <img
-               src="./public/resumePic.jpg"
+              src="./public/resumePic.jpg"
               alt="Developer workspace"
               className="w-full h-[500px] object-cover"
             />
@@ -133,5 +145,5 @@ export default function Hero() {
         </motion.div>
       </div>
     </section>
-  )
+  );
 }

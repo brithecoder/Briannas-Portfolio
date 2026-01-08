@@ -5,6 +5,55 @@ Welcome to the repository for my personal portfolio. This site is designed to sh
 ## 🚀 The Vision
 My portfolio is built to reflect my transition into Senior-level leadership. It highlights my ability to bridge the gap between complex backend logic (like cloud-integrated LLMs) and warm, accessible user interfaces.
 
+## 🛠️ Local Development
+Follow these steps to get a local copy of the project up and running.
+
+**1. Prerequisites**
+Ensure you have Node.js (v18.0 or higher) installed on your machine.
+
+Download Node.js
+
+Verify installation: node -v
+
+**2. Installation**
+Clone the repository and install the dependencies:
+
+```Bash
+
+# Clone the repo
+git clone https://github.com/brithecoder/Briannas-Portfolio.git
+
+# Enter the directory
+cd Briannas-Portfolio
+
+# Install dependencies
+npm install
+```
+**3. Environment Setup**
+The contact form requires a Web3Forms access key to function.
+
+Create a .env file in the root directory:
+
+```Bash
+
+touch .env
+```
+Add your access key to the .env file:
+
+```Code snippet
+
+VITE_WEB3FORMS_KEY=your_access_key_here
+```
+
+**4. Running the Project**
+Start the development server:
+
+```Bash
+
+npm run dev
+```
+Once the server starts, open http://localhost:5173 in your browser to view the site.
+
 ## 🛠️ Technical Stack
 **Framework:** React 18 with Vite for lightning-fast HMR.
 
