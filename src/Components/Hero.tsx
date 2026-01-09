@@ -123,8 +123,8 @@ export default function Hero() {
         >
           <div className="relative rounded-3xl overflow-hidden shadow-2xl">
             <img
-              src="./public/resumePic.jpg"
-              alt="Developer workspace"
+              src="/resumePic.jpg"
+              alt="Pic of Brianna Gordon"
               className="w-full h-[500px] object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-purple-900/20 to-transparent"></div>
