@@ -1,6 +1,8 @@
 # 👩🏾‍💻 Brianna Gordon | Frontend Software Developer Portfolio
 Welcome to the repository for my personal portfolio. This site is designed to showcase my journey from enterprise finance systems at Morgan Stanley to my current focus on Cloud-native AI interfaces. It serves as a live demonstration of my technical standards in React, TypeScript, and UI/UX architecture.
 +4
+## 💖  Live Demo
+**[View Live Site](https://briigordon.com/)** 
 
 ## 🚀 The Vision
 My portfolio is built to reflect my transition into Senior-level leadership. It highlights my ability to bridge the gap between complex backend logic (like cloud-integrated LLMs) and warm, accessible user interfaces.

@@ -84,8 +84,9 @@ export function About() {
             className="space-y-4"
           >
             <p className="text-gray-700 text-lg leading-relaxed">
-              Bridge-builder. Problem-solver. Cloud-certified Engineer.
-
+                 Bridge-builder. Problem-solver. Cloud-certified Engineer.
+            </p>
+            <p className="text-gray-700 text-lg leading-relaxed">
               I am a Frontend Software Developer with a passion for creating 
               high-performance, accessible, and user-centric web applications.
               My journey in tech is defined by a commitment to technical excellence 
@@ -96,7 +97,7 @@ export function About() {
             Most recently, I spent two years at Morgan Stanley (via FDM Group) 
             within the Digital Investment Proposals space. During my time there,
              I was a key contributor to a massive technical evolution: incrementally
-              migrating client-facing platforms from Angular to React following the E*TRADE acquisition 
+              migrating client-facing platforms from Angular to React following the E*TRADE acquisition. 
             </p>
             <p className="text-gray-700 text-lg leading-relaxed">
               Currently, I'm seeking a senior role where I can take on more
