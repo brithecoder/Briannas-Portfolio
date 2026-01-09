@@ -37,7 +37,7 @@ export function About() {
      {
       icon:GraduationCap,
       title: "Academic Excellence",
-      description: "Graduated Cum Laude from California State University, Los Angeles."
+      description: "Graduated Magna Cum Laude from California State University, Los Angeles."
     }, {
       icon: Brain,
       title: "Thought Leadership",
