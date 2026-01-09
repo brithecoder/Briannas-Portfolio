@@ -97,7 +97,7 @@ export function Contact() {
           <h2 className="text-4xl text-gray-900 mb-4">Get In Touch</h2>
           <div className="w-20 h-1 bg-gradient-to-r from-pink-400 to-purple-500 mx-auto rounded-full"></div>
           <p className="text-gray-600 mt-6 max-w-2xl mx-auto text-lg">
-            I'm currently open to new opportunities. Whether you have a question or just want to say hi, feel free to reach out!
+            I'm currently open to new opportunities. Whether you have a question or just want to say hi, feel free to reach out! ✨💖 
           </p>
         </motion.div>
 
@@ -219,7 +219,7 @@ export function Contact() {
                   Message Sent!
                 </h3>
                 <p className="text-gray-600">
-                  Thanks for reaching out! I'll get back to you soon.
+                  Thanks for reaching out! I'll get back to you soon.💖 ✨
                 </p>
                 <Button
                   variant="outline"

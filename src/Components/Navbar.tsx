@@ -13,12 +13,15 @@ export function Navbar() {
         <div className="flex justify-between items-center">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
+            whileHover={{ scale: 1.05 }} 
+            whileTap={{ scale: 0.95 }}  
             animate={{ opacity: 1, x: 0 }}
             className="text-2xl bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent"
           >
             <a 
             href="#" 
              className="bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent hover:opacity-80 transition-opacity"
+             aria-label="Back to home"
              >
             BNG
             </a>
@@ -35,6 +38,7 @@ export function Navbar() {
                 key={item}
                 href={`#${item.toLowerCase()}`}
                 initial={{ opacity: 0, y: -10 }}
+                aria-label={`Jump to ${item} section`}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
                 className="text-gray-700 hover:text-purple-600 transition-colors relative group"
@@ -66,6 +70,7 @@ export function Navbar() {
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}
+                aria-label={`Jump to ${item} section`}
                 className="block py-3 text-gray-700 hover:text-purple-600 transition-colors"
                 onClick={() => setIsOpen(false)}
               >

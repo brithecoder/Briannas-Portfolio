@@ -30,10 +30,10 @@ export function Projects() {
     {
       title: "FlavorFind - Recipe Discovery App",
       description:
-        "An advanced discovery engine utilizing React Context for global state and a custom masonry grid. Designed to handle complex filtering by ingredients and dietary preferences with a fluid, mobile-first UI.",
+        "An advanced discovery engine utilizing React Context for global state and a custom masonry grid. Designed to handle complex filtering by ingredients and dietary preferences with a fluid, mobile-first UI.Features custom hooks, TypeScript generics, and seamless client-side routing.",
       image: flavorFindImage,
-      technologies: ["React", "TypeScript", "HTML", "CSS", "MealDB API"],
-      liveUrl: "#",
+      technologies: ["React", "TypeScript", "HTML", "CSS", "MealDB API","Framer Motion"],
+      liveUrl: "https://myflavorfinder.netlify.app/",
       githubUrl: "https://github.com/brithecoder/SBA-Recipe-Discovery-App/tree/main/recipe-discovery-app",
     },
   ];
