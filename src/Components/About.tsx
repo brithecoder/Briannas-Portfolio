@@ -93,7 +93,6 @@ export function About() {
               and a drive to solve complex architectural challenges.
             </p>
             <p className="text-gray-700 text-lg leading-relaxed">
-             My Professional Story
             Most recently, I spent two years at Morgan Stanley (via FDM Group) 
             within the Digital Investment Proposals space. During my time there,
              I was a key contributor to a massive technical evolution: incrementally

@@ -47,7 +47,7 @@ export default function Hero() {
             Mid-level developer with 3+ years of experience crafting beautiful,
             accessible, and performant web applications. Currently focused on
             mastering scalable architecture and transitioning into senior-level
-            leadership.
+            leadership."
           </motion.p>
 
           <motion.div
@@ -75,8 +75,8 @@ export default function Hero() {
               className="border-2 border-purple-300 text-purple-700 hover:bg-purple-50 px-6 py-6 rounded-full"
             >
               <a
-                href="/briannas-portfolio/public/BriannaGordonEngineering 2025 Resume.docx.pdf"
-                download
+              href="/Brianna_Gordon_Resume.pdf"
+              download="Brianna_Gordon_Resume.pdf"
               >
                 Download CV
               </a>

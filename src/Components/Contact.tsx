@@ -78,7 +78,7 @@ export function Contact() {
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (313) 971-3112",
+      value: "+1 (313) 744-2438",
       color: "from-purple-400 to-pink-400",
     },
     {
