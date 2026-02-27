@@ -6,8 +6,18 @@ import { Button } from "./ui/button";
 import ipTrakerImage from "../assets/IPTrackerSS.png";
 import aiFriendshipAppImage from "../assets/AIChatBotFriendSS.png";
 import flavorFindImage from "../assets/RecipeAppSS.png";
+import graffitiImage from "../assets/graffitiSS.png";
 export function Projects() {
   const projects = [
+     {
+      title: "GRAFFITI TREATY - Digital Art Collective",
+      description:
+        "A real-time collaborative platform for digital street art. I engineered a custom drawing engine using P5.js and integrated Socket.io to enable sub-100ms synchronization between artists. Leveraged Google Gemini to accelerate the development lifecycle and optimize complex coordinate-normalization logic, resulting in a seamless cross-device creative experience.",
+      image: graffitiImage,
+      technologies: ["React","Node.js","Tailwind CSS", "MongoDB", "Socket.io", "P5.js"],
+      liveUrl: "https://graffiti-treaty.netlify.app/",
+      githubUrl: "https://github.com/brithecoder/Graffiti-Treaty-Frontend",
+    },
     {
       title: "AI-Powered Friendship App",
       description:

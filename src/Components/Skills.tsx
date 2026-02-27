@@ -27,6 +27,7 @@ export function Skills() {
         "Azure",
         "REST APIs",
         "GraphQL",
+        "Socket.io"
       ],
       color: "from-purple-400 to-pink-400"
     },

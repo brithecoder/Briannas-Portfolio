@@ -47,7 +47,7 @@ export default function Hero() {
             Mid-level developer with 3+ years of experience crafting beautiful,
             accessible, and performant web applications. Currently focused on
             mastering scalable architecture and transitioning into senior-level
-            leadership."
+            leadership.
           </motion.p>
 
           <motion.div
