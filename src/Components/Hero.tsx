@@ -75,8 +75,8 @@ export default function Hero() {
               className="border-2 border-purple-300 text-purple-700 hover:bg-purple-50 px-6 py-6 rounded-full"
             >
               <a
-              href="/Brianna_Gordon_Resume.pdf"
-              download="Brianna_Gordon_Resume.pdf"
+              href="/Brianna_Gordon_Resume_2026.pdf"
+              download="Brianna_Gordon_Resume_2026.pdf"
               >
                 Download CV
               </a>
