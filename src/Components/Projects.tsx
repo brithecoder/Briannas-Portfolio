@@ -7,8 +7,18 @@ import ipTrakerImage from "../assets/IPTrackerSS.png";
 import aiFriendshipAppImage from "../assets/AIChatBotFriendSS.png";
 import flavorFindImage from "../assets/RecipeAppSS.png";
 import graffitiImage from "../assets/graffitiSS.png";
+import auditEngineImage from "../assets/auditEngineImage.png"
 export function Projects() {
   const projects = [
+    {
+      title: "Socio-Linguistic & Subtext Audit Engine",
+      description:
+        "An asynchronous Responsible AI benchmarking platform that evaluates how generative LLMs decode non-literal pragmatics, dual-meaning innuendos, and subtle conversational subtext across model parameter scales. Features real-time multi-model evaluation and multi-register translation across Corporate, Formal, and Informal communication contexts.",
+      image: auditEngineImage,
+      technologies: ["Next.js", "TypeScript", "FastAPI", "Python", "AsyncGroq", "Tailwind CSS"],
+      liveUrl: "https://cultural-bias-audit-engine.vercel.app",
+      githubUrl: "https://github.com/brithecoder/cultural-bias-audit-engine",
+    },
      {
       title: "GRAFFITI TREATY - Digital Art Collective",
       description:
