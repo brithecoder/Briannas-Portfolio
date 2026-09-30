@@ -1,52 +1,52 @@
 import { motion } from "motion/react";
-import { Code2, Sparkles, Target, MonitorCog, House, CloudCog, GraduationCap,Brain, Flower2} from "lucide-react";
+import {
+  Sparkles,
+  MonitorCog,
+  CloudCog,
+  GraduationCap,
+  Brain,
+  Flower2,
+} from "lucide-react";
 import { Card } from "./ui/card";
 
 export function About() {
   const highlights = [
     {
-      icon: Code2,
-      title: "Clean Code Advocate",
-      description: "Passionate about writing maintainable, well-documented code that scales."
-    },
-    {
       icon: Sparkles,
-      title: "UI/UX Enthusiast",
-      description: "Dedicated to creating delightful user experiences with attention to detail."
-    },
-    {
-      icon: Target,
-      title: "Goal-Oriented",
-      description: "Focused on delivering high-quality products that exceed expectations."
+      title: "Architectural Empathy",
+      description:
+        "Refactoring complex legacy systems and untangling dependencies with an emphasis on developer empathy and long-term maintainability.",
     },
     {
       icon: MonitorCog,
-      title: "Modernizing Legacy Systems:",
-      description: "Focused on delivering high-quality products that exceed expectations."
-    },
-    {
-      icon: House,
       title: "Responsive Architecture",
-      description: "Crafting adaptive layouts and fluid UI elements that ensure a seamless experience on any device."
-    }, 
+      description:
+        "Crafting adaptive layouts and fluid UI elements that ensure a seamless experience on any device.",
+    },
     {
       icon: CloudCog,
       title: "Cloud-Native Solutions",
-      description: "As a Google Cloud Certified Associate Cloud Engineer, I leverage GCP and Azure to build scalable, secure, and integrated cloud deployments."
+      description:
+        "As a Google Cloud Certified Associate Cloud Engineer, I leverage GCP and Azure to build scalable, secure, and integrated cloud deployments.",
     },
-     {
-      icon:GraduationCap,
-      title: "Academic Excellence",
-      description: "Graduated Magna Cum Laude from California State University, Los Angeles."
-    }, {
+    {
+      icon: GraduationCap,
+      title: "Academic Rigor",
+      description:
+        "Graduated Magna Cum Laude from California State University, Los Angeles.",
+    },
+    {
       icon: Brain,
-      title: "Thought Leadership",
-      description: "I share my technical insights and journey through writing on Medium."
-    }, {
+      title: "Creative Computing",
+      description:
+        "Exploring real-time web architectures, distributed systems, and collaborative interfaces that challenge conventional digital interaction.",
+    },
+    {
       icon: Flower2,
-      title: "Continuous Learning",
-      description: "Currently deepening my Full Stack expertise to stay at the cutting edge of the MERN stack."
-    },    
+      title: "Socio-Technical Inquiry",
+      description:
+        "Deepening my work at the intersection of critical race theory, natural language processing, and pragmatic bias in generative AI.",
+    },
   ];
   return (
     <section className="py-20 px-6 bg-white">
@@ -70,7 +70,7 @@ export function About() {
             transition={{ duration: 0.6 }}
           >
             <img
-              src='/hero-image.jpg'
+              src="/hero-image.jpg"
               alt="Coding setup"
               className="rounded-2xl shadow-xl w-full"
             />
@@ -84,24 +84,30 @@ export function About() {
             className="space-y-4"
           >
             <p className="text-gray-700 text-lg leading-relaxed">
-                 Bridge-builder. Problem-solver. Cloud-certified Engineer.
+              Bridge-builder. Systems Thinker. Cloud-certified Engineer.
             </p>
             <p className="text-gray-700 text-lg leading-relaxed">
-              I am a Frontend Software Developer with a passion for creating 
-              high-performance, accessible, and user-centric web applications.
-              My journey in tech is defined by a commitment to technical excellence 
-              and a drive to solve complex architectural challenges.
+              I am a software engineer and researcher dedicated to building
+              high-performance, accessible, and culturally responsive digital
+              systems. My technical foundation was forged in enterprise
+              engineering: most recently, I spent two years at Morgan Stanley
+              (via FDM Group) within Digital Investment Proposals, contributing
+              to the large-scale architectural migration of client platforms
+              from Angular to React in the wake of the E*TRADE integration.
             </p>
             <p className="text-gray-700 text-lg leading-relaxed">
-            Most recently, I spent two years at Morgan Stanley (via FDM Group) 
-            within the Digital Investment Proposals space. During my time there,
-             I was a key contributor to a massive technical evolution: incrementally
-              migrating client-facing platforms from Angular to React following the E*TRADE acquisition. 
+              Navigating complex legacy codebases and refactoring critical
+              infrastructure taught me that software architecture is never
+              purely abstract—it is a deeply human conduit governed by
+              communication, accessibility, and developer empathy.
             </p>
             <p className="text-gray-700 text-lg leading-relaxed">
-              Currently, I'm seeking a senior role where I can take on more
-              technical leadership, architect scalable solutions, and help shape
-              the development culture of a forward-thinking team.
+              Today, I am channeling that engineering background toward graduate
+              study at the intersection of the social sciences, moral
+              philosophy, and machine learning. I aim to investigate how
+              algorithmic systems encode cultural assumptions, evaluate
+              generative AI for pragmatic bias, and build computational tools
+              that preserve human agency.
             </p>
           </motion.div>
         </div>

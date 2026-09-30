@@ -34,7 +34,7 @@ export default function Hero() {
               transition={{ delay: 0.4 }}
               className="text-2xl md:text-3xl text-gray-700"
             >
-              Frontend Developer
+              Creative Technologist & Software Engineer
             </motion.p>
           </div>
 
@@ -44,10 +44,24 @@ export default function Hero() {
             transition={{ delay: 0.5 }}
             className="text-gray-600 text-lg leading-relaxed"
           >
-            Mid-level developer with 3+ years of experience crafting beautiful,
-            accessible, and performant web applications. Currently focused on
-            mastering scalable architecture and transitioning into senior-level
-            leadership.
+            Background in production frontend engineering and Pan-African
+            Studies. I design interactive systems, audit generative AI for
+            cultural bias, and build collaborative digital spaces that center
+            human agency.
+          </motion.p>
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.55 }}
+            className="text-sm font-medium text-gray-500 tracking-wide flex flex-wrap items-center gap-2 pt-1"
+          >
+            <span>B.A. African American Studies (Magna Cum Laude)</span>
+            <span className="text-purple-400">·</span>
+            <span>Former Frontend Engineer at Morgan Stanley</span>
+            <span className="text-purple-400">·</span>
+            <span className="text-purple-700 font-semibold">
+              Aspiring Graduate Researcher (Fall 2027)
+            </span>
           </motion.p>
 
           <motion.div
@@ -75,8 +89,8 @@ export default function Hero() {
               className="border-2 border-purple-300 text-purple-700 hover:bg-purple-50 px-6 py-6 rounded-full"
             >
               <a
-              href="/Brianna_Gordon_Resume_2026.pdf"
-              download="Brianna_Gordon_Resume_2026.pdf"
+                href="/Brianna_Gordon_Resume_2026.pdf"
+                download="Brianna_Gordon_Resume_2026.pdf"
               >
                 Download CV
               </a>
