@@ -55,7 +55,7 @@ export default function Hero() {
             transition={{ delay: 0.55 }}
             className="text-sm font-medium text-gray-500 tracking-wide flex flex-wrap items-center gap-2 pt-1"
           >
-            <span>B.A. African American Studies (Magna Cum Laude)</span>
+            <span>B.A. Pan African Studies (Magna Cum Laude)</span>
             <span className="text-purple-400">·</span>
             <span>Former Frontend Engineer at Morgan Stanley</span>
             <span className="text-purple-400">·</span>
