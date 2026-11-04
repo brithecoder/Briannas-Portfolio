@@ -8,6 +8,8 @@ import {
   Flower2,
 } from "lucide-react";
 import { Card } from "./ui/card";
+import { Link } from "react-router-dom";
+import { Button } from "./ui/button";
 
 export function About() {
   const highlights = [
@@ -109,6 +111,17 @@ export function About() {
               generative AI for pragmatic bias, and build computational tools
               that preserve human agency.
             </p>
+            <div className="flex justify-center pt-4">
+              <Button
+                asChild
+                className="bg-purple-600 hover:bg-purple-700 text-white font-medium shadow-sm transition-all"
+              >
+                <Link to="/trajectory">
+                  <Sparkles className="h-4 w-4 mr-2" />
+                  The Story Behind My Work
+                </Link>
+              </Button>
+            </div>
           </motion.div>
         </div>
 
@@ -132,6 +145,7 @@ export function About() {
             </motion.div>
           ))}
         </div>
+        <div className="pt-4"></div>
       </div>
     </section>
   );

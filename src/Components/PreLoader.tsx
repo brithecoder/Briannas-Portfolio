@@ -3,7 +3,7 @@ function Preloader(){
         <div>
           <svg x="0" y="0" width="258" height="258">
   
-  <g clip-path="url(#clip-path)">
+  <g clipPath="url(#clip-path)">
     
     <path
 	 className="tree" 

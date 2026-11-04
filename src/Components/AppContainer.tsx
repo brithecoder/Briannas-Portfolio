@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Hero from "./Hero";
 import "@/App.css";
 import Preloader from "./PreLoader";
@@ -11,16 +12,40 @@ import { Contact } from "./Contact";
 import { About } from "./About";
 
 export default function AppContainer() {
-  const [mainLoading, setMainLoading] = useState(true);
+  const { hash } = useLocation();
+
+  // Initialize state based on whether the preloader has already completed this session
+  const [mainLoading, setMainLoading] = useState(() => {
+    return !sessionStorage.getItem("portfolio_preloader_shown");
+  });
 
   useEffect(() => {
-    // 2. You only need the timer to turn it OFF
+    // If it was already shown in this session, skip the timer entirely
+    if (!mainLoading) return;
+
     const timer = setTimeout(() => {
       setMainLoading(false);
+      sessionStorage.setItem("portfolio_preloader_shown", "true");
     }, 5000);
-    // 3. Senior Move: Always clear your timeouts!
+
     return () => clearTimeout(timer);
-  }, []);
+  }, [mainLoading]);
+
+  // Smooth scroll to the target section (e.g., #projects) once ready
+  useEffect(() => {
+    if (!mainLoading && hash) {
+      // Small timeout ensures the DOM has painted before calculating element offsets
+      const scrollTimer = setTimeout(() => {
+        const targetElement = document.querySelector(hash);
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 50);
+
+      return () => clearTimeout(scrollTimer);
+    }
+  }, [mainLoading, hash]);
+  
 
   return (
     <div>

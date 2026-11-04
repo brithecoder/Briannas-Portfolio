@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Github, FlaskConical } from "lucide-react";
 import { Card } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
@@ -7,29 +7,47 @@ import ipTrakerImage from "../assets/IPTrackerSS.png";
 import aiFriendshipAppImage from "../assets/AIChatBotFriendSS.png";
 import flavorFindImage from "../assets/RecipeAppSS.png";
 import graffitiImage from "../assets/graffitiSS.png";
-import auditEngineImage from "../assets/auditEngineImage.png"
+import auditEngineImage from "../assets/auditEngineImage.png";
+import { Link } from "react-router-dom";
 export function Projects() {
   const projects = [
     {
       title: "Socio-Linguistic & Subtext Audit Engine",
+      slug: "cultural-bias-audit-engine",
       description:
         "An asynchronous Responsible AI benchmarking platform that evaluates how generative LLMs decode non-literal pragmatics, dual-meaning innuendos, and subtle conversational subtext across model parameter scales. Features real-time multi-model evaluation and multi-register translation across Corporate, Formal, and Informal communication contexts.",
       image: auditEngineImage,
-      technologies: ["Next.js", "TypeScript", "FastAPI", "Python", "AsyncGroq", "Tailwind CSS"],
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "FastAPI",
+        "Python",
+        "AsyncGroq",
+        "Tailwind CSS",
+      ],
       liveUrl: "https://cultural-bias-audit-engine.vercel.app",
       githubUrl: "https://github.com/brithecoder/cultural-bias-audit-engine",
     },
-     {
+    {
       title: "GRAFFITI TREATY - Digital Art Collective",
+      slug: "graffiti-treaty",
       description:
         "A real-time collaborative platform for digital street art. I engineered a custom drawing engine using P5.js and integrated Socket.io to enable sub-100ms synchronization between artists. Leveraged Google Gemini to accelerate the development lifecycle and optimize complex coordinate-normalization logic, resulting in a seamless cross-device creative experience.",
       image: graffitiImage,
-      technologies: ["React","Node.js","Tailwind CSS", "MongoDB", "Socket.io", "P5.js"],
+      technologies: [
+        "React",
+        "Node.js",
+        "Tailwind CSS",
+        "MongoDB",
+        "Socket.io",
+        "P5.js",
+      ],
       liveUrl: "https://graffiti-treaty.netlify.app/",
       githubUrl: "https://github.com/brithecoder/Graffiti-Treaty-Frontend",
     },
     {
-      title: "AI-Powered Friendship App",
+      title: "Pixel AI-Powered Friendship App",
+      slug: "pixel",
       description:
         "Pixel is more than just an AI, she is designed to be a warm, supportive digital companion tailored to my unique journey. By blending my experience in enterprise architecture with a heart for user-centered design, I built a secure, modular space where technology feels like a friend. It features a customized interface that prioritizes comfort and accessibility, powered by a sophisticated mix of local and cloud-based intelligence.",
       image: aiFriendshipAppImage,
@@ -52,9 +70,17 @@ export function Projects() {
       description:
         "An advanced discovery engine utilizing React Context for global state and a custom masonry grid. Designed to handle complex filtering by ingredients and dietary preferences with a fluid, mobile-first UI.Features custom hooks, TypeScript generics, and seamless client-side routing.",
       image: flavorFindImage,
-      technologies: ["React", "TypeScript", "HTML", "CSS", "MealDB API","Framer Motion"],
+      technologies: [
+        "React",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "MealDB API",
+        "Framer Motion",
+      ],
       liveUrl: "https://myflavorfinder.netlify.app/",
-      githubUrl: "https://github.com/brithecoder/SBA-Recipe-Discovery-App/tree/main/recipe-discovery-app",
+      githubUrl:
+        "https://github.com/brithecoder/SBA-Recipe-Discovery-App/tree/main/recipe-discovery-app",
     },
   ];
 
@@ -117,6 +143,17 @@ export function Projects() {
                     </div>
 
                     <div className="flex gap-3">
+                      {project.slug && (
+                        <Button
+                          asChild
+                          className="bg-purple-600 hover:bg-purple-700 text-white font-medium shadow-sm transition-all"
+                        >
+                          <Link to={`/projectPage/${project.slug}`}>
+                            <FlaskConical className="h-4 w-4 mr-2" />
+                           Artifact Dossier
+                          </Link>
+                        </Button>
+                      )}
                       <Button
                         asChild
                         variant="outline"
@@ -145,8 +182,8 @@ export function Projects() {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                        <Github className="h-4 w-4 mr-2" />
-                        View Code
+                          <Github className="h-4 w-4 mr-2" />
+                          View Code
                         </a>
                       </Button>
                     </div>
