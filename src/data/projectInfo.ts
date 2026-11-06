@@ -37,7 +37,7 @@ export const researchArtifacts: Record<string, ResearchArtifact> = {
     demoUrl: "https://cultural-bias-audit-engine.vercel.app/",
     techStack: ["Python", "FastAPI", "Groq API", "LLaMA 3", "NLP Parsing"],
     abstract:
-      "Workplace AI tools (like tone checkers, HR screening algorithms, and automated email editors) often flag Black cultural speech patterns (AAVE) as \"unprofessional\" or \"bad writing\" simply because they don't match White corporate norms. This project builds a tool that flips that dynamic: instead of grading Black people on how well they assimilate to corporate speech, the engine audits the corporate system itself—detecting microaggressions, subtle tone policing, and hidden biases to challenge unfair language standards.",
+      "Automated corporate and institutional text evaluation often conflates dialectal variation—specifically African American Vernacular English (AAVE)—with low professionalism. This project implements an automated linguistic evaluation engine designed to isolate microaggressions, implicit bias, and institutional tone policing, exploring how computational tooling can expose rather than reproduce dominant dialect hierarchies.",
     researchQuestions: [
       "How do large language models benchmark semantic professionalism across dialectal shifts (AAVE vs. Standard American English)?",
       "Can real-time linguistic heuristics surface covert interpersonal workplace microaggressions without over-relying on superficial keyword matching?",
