@@ -95,6 +95,16 @@ const cinematicArchive = [
     note: "Interrogating the human impulse to exploit, record, and monetize miracles.",
   },
   {
+    title: "The Breadwinner",
+    tag: "Storytelling as Resistance",
+    note: "Defiant female agency and mythic folklore cutting through structural oppression.",
+  },
+  {
+    title: "Soul",
+    tag: "Pixar / Existential Jazz",
+    note: "Decoupling creative obsession from human worth to honor the spark of living.",
+  },
+  {
     title: "Kill Bill: Vol. 1",
     tag: "Cinematic Precision",
     note: "Mastery of visual pacing, choreography, and stylistic tribute.",
@@ -128,6 +138,11 @@ const literaryShelf = [
     note: "Vernacular poetry, self-actualization, and Black southern linguistic nuance.",
   },
   {
+    title: "Homegoing",
+    author: "Yaa Gyasi",
+    note: "Generational diaspora, the architectural legacy of captivity, and fractured ancestral memory.",
+  },
+  {
     title: "Things Fall Apart",
     author: "Chinua Achebe",
     note: "Pre-colonial social architecture unraveling under structural collision.",
@@ -152,6 +167,11 @@ const literaryShelf = [
     author: "Oral Tradition / Epic",
     note: "Foundational mythmaking, monsters, and linguistic oral ancestry.",
   },
+  {
+    title: "1984",
+    author: "George Orwell",
+    note: "Linguistic compression, synthetic reality, and institutional erasure of memory.",
+  }
 ];
 
 export function PersonalJourneyPage() {
