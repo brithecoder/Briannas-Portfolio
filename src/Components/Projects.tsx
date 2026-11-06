@@ -47,7 +47,7 @@ export function Projects() {
     },
     {
       title: "Pixel AI-Powered Friendship App",
-      slug: "pixel",
+      slug: "pixel-embodied-agent",
       description:
         "Pixel is more than just an AI, she is designed to be a warm, supportive digital companion tailored to my unique journey. By blending my experience in enterprise architecture with a heart for user-centered design, I built a secure, modular space where technology feels like a friend. It features a customized interface that prioritizes comfort and accessibility, powered by a sophisticated mix of local and cloud-based intelligence.",
       image: aiFriendshipAppImage,
