@@ -52,10 +52,10 @@ const musicTracklist = [
     note: "Afrofuturist android allegory on staying centered.",
   },
   {
-    title: "Under Pressure",
-    artist: "Queen & David Bowie",
-    note: "The weight of the world, transformed into catharsis.",
-  },
+  title: "Don't Stop Me Now",
+  artist: "Queen",
+  note: "Pure kinetic momentum, defying gravity at two hundred degrees.",
+},
   {
     title: "Closer",
     artist: "Goapele",
