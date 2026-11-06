@@ -34,7 +34,7 @@ const musicTracklist = [
   {
     title: "I Lied to You",
     artist: "Miles Caton (Sinners)",
-    note: "Raw vocal texture and narrative honesty.",
+    note: "See, I'm full of the blues,Holy water too.",
   },
   {
     title: "Cyber Sex",
