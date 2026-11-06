@@ -113,7 +113,7 @@ export function CaseStudyPage() {
                   rel="noopener noreferrer"
                 >
                   <ExternalLink className="h-4 w-4 mr-2" />
-                  Live Artifact Demo
+                  Live Demo
                 </a>
               </Button>
 
