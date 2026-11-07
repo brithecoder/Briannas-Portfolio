@@ -120,6 +120,11 @@ const cinematicArchive = [
     note: "Surreal labor, resilience, and spiritual transition.",
   },
   {
+    title: "Arrival",
+    tag: "Linguistic Relativity",
+    note: "Nonlinear semiotics, structural decoding, and language as a bridge across consciousness.",
+  },
+  {
     title: "Shrek 1 & 2",
     tag: "Subversive Animation",
     note: "Early 2000s 3D CGI milestone with unmatched cultural resonance.",
@@ -129,6 +134,12 @@ const cinematicArchive = [
     tag: "Tarantino / Practical Stunts",
     note: "Pure visceral rhythm and uncompromising female agency.",
   },
+  {
+    title: "Everything Everywhere All at Once",
+    tag: "Multiversal Maximalism",
+    note: "Infinite cognitive noise collapsed into radical empathy and maternal grace.",
+  },
+
 ];
 
 const literaryShelf = [
