@@ -147,11 +147,12 @@ export function CaseStudyPage() {
             <video
               autoPlay
               loop
+              key={project.videoSrc}
+              src={project.videoSrc}
               muted
               playsInline
               className="w-full h-auto aspect-video object-cover"
             >
-              <source src={project.videoSrc} type="video/mp4" />
               Your browser does not support HTML5 video playback.
             </video>
           </div>
