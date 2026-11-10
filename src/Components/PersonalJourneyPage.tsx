@@ -174,9 +174,9 @@ const literaryShelf = [
     note: "Social contract fragility and the raw psychology of collective disorder.",
   },
   {
-    title: "Beowulf",
-    author: "Oral Tradition / Epic",
-    note: "Foundational mythmaking, monsters, and linguistic oral ancestry.",
+    title: "The Alchemist",
+    author: "Paulo Coelho",
+    note: "mythmaking, personal legend, and the intuitive alignment of purpose.",
   },
   {
     title: "1984",
