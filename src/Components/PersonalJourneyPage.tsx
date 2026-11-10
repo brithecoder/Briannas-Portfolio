@@ -143,7 +143,7 @@ const cinematicArchive = [
 ];
 
 const literaryShelf = [
-  {
+ {
     title: "Their Eyes Were Watching God",
     author: "Zora Neale Hurston",
     note: "Vernacular poetry, self-actualization, and Black southern linguistic nuance.",
@@ -164,25 +164,25 @@ const literaryShelf = [
     note: "Adolescent colorism, systemic shame, and learning to inhabit your own skin.",
   },
   {
-    title: "Drama High Series",
-    author: "L. Divine",
-    note: "Unfiltered young adult urban life, school halls, and cultural familiarity.",
+    title: "Between the World and Me",
+    author: "Ta-Nehisi Coates",
+    note: "The visceral protection of the Black body, structural racism, and ancestral inheritance.",
   },
   {
-    title: "Lord of the Flies",
-    author: "William Golding",
-    note: "Social contract fragility and the raw psychology of collective disorder.",
+    title: "Animal Farm",
+    author: "George Orwell",
+    note: "Rhetorical hijacking, class betrayal, and the gradual rewrite of structural memory.",
   },
   {
     title: "The Alchemist",
     author: "Paulo Coelho",
-    note: "mythmaking, personal legend, and the intuitive alignment of purpose.",
+    note: "Allegorical mythmaking, personal legend, and the intuitive alignment of purpose.",
   },
   {
     title: "1984",
     author: "George Orwell",
     note: "Linguistic compression, synthetic reality, and institutional erasure of memory.",
-  }
+  },
 ];
 
 export function PersonalJourneyPage() {
